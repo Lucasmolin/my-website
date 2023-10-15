@@ -1,10 +1,14 @@
-# PRODUCT PACKAGES
+---
+sidebar_position: 2
+---
 
-### MODULE OVERVIEW
+# Product Packages
+
+### Module Overview
 
 In this module, package information is added to existing products in SQARP. Currently, only primary packages can be added to products. One product can have several packages/parcels.
 
-### DATA & DEFINITIONS
+### Data & Definitions
 
 | Data | Definition | Rules & Validation |
 | --- | --- | --- |

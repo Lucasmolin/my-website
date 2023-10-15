@@ -1,6 +1,9 @@
-# PRODUCT RELATIONS
+---
+sidebar_position: 4
+---
+# Product relations
 
-### MODULE OVERVIEW
+### Module overview
 
 In this module, we manage product relations in SQARP. Product relations is a collective word for the four relation types available in SQARP: Accessories, Spare parts, Components and Addons. Associated with addons are Addon Categories which are also covered in this module.
 

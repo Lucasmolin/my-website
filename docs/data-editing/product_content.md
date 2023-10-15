@@ -1,10 +1,14 @@
-# PRODUCT CONTENT
+---
+sidebar_position: 5
+---
 
-### MODULE OVERVIEW
+# Product content
+
+### Module overview
 
 In this module, we manage product level content. The template contains four sheets and is language dependent.
 
-### DATA & DEFINITIONS
+### Data & definitions
 
 Product content is divided into four separate sheets:
 

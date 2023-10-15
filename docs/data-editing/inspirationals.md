@@ -1,10 +1,13 @@
-# INSPIRATIONALS
+---
+sidebar_position: 4
+---
+# Inspirationals
 
-### MODULE OVERVIEW
+## Module Overview
 
 In this module, inspirational entities and their relations to products are managed. Inspirational entities is the collective term for Series, USPs and Models in SQARP. This module is language dependent.
 
-### DATA & DEFINITIONS
+## Data & Definitions
 
 The inspirational template is divided into six sheets:
 
@@ -15,7 +18,7 @@ The inspirational template is divided into six sheets:
 - **Descriptions:** Descriptions for inspirational entities are managed here
 - **Product-Inspirationals:** Relations between products and inspirational entities are managed here
 
-### INSPIRATIONALS
+### Inspirationals
 
 | Data | Definition | Rules & Validation |
 | --- | --- | --- |
@@ -25,7 +28,7 @@ The inspirational template is divided into six sheets:
 | inspirational_translation_[lang] | The public name of the inspirational entity in the language specified by the language code. | Mandatory. |
 | landing_page_url | The URL to the manufacturer’s landing page for the corresponding inspirational | Only filled when applicable. Must be valid URL. Validated for 200 response. |
 
-### IMAGES
+### Images
 
 | Data | Definition | Rules & Validation |
 | --- | --- | --- |
@@ -34,7 +37,7 @@ The inspirational template is divided into six sheets:
 | inspirational_slug | Unique identifier for the inspirational entity. | Must match an inspirational slug in the “Inspirationals” sheet or existing inspirational in SQARP. |
 | image_url | URL to one image file. | Must be valid URL to an image file. Validated for 200 response. |
 
-### DOCUMENTS
+### Documents
 
 | Data | Definition | Rules & Validation |
 | --- | --- | --- |
@@ -45,7 +48,7 @@ The inspirational template is divided into six sheets:
 | document_type | Indication of the type of document | Must be valid document type. List of available document types and corresponding definitions can be found here. |
 | document_language_code | Indication of the document language. | Lowercased ISO 639-1 Code |
 
-### VIDEOS
+### Videos
 
 | Data | Definition | Rules & Validation |
 | --- | --- | --- |
@@ -56,7 +59,7 @@ The inspirational template is divided into six sheets:
 | video_type | Indication of the type of video | Must be valid video type. List of available video types and corresponding definitions can be found here. |
 | video_language_code | Indication of the spoken video language. | Lowercased ISO 639-1 Code |
 
-### DESCRIPTIONS
+### Descriptions
 
 | Data | Definition | Rules & Validation |
 | --- | --- | --- |
@@ -69,11 +72,12 @@ The inspirational template is divided into six sheets:
 | description_image_url | URL to one image file corresponding to one description block. | Must be valid URL to an image file. Validated for 200 response. |
 | description_video_url | URL to one externally hosted video corresponding to one description block. | Must be valid URL to a video. Preferably youtube or vimeo. Validated for 200 response. |
 
-### PRODUCT-INSPIRATIONALS
+### Product-inspirationals
 
 [AVVAKTA NY IMPLEMENTATION I MALLEN]
+## SQARP Gold Standard
+:::caution SQARP Gold Standard
 
-### SQARP GOLD STANDARD
 
 - Set inspirational slugs that make it possible to identify the entity only using the slug.
 - All static marketing content that is relevant for consumer e-commerce presentation should be stored on inspirational entities in SQARP.
@@ -81,10 +85,10 @@ The inspirational template is divided into six sheets:
 - All inspirational entities should have at least one description block.
 - Descriptions should be written in a way that it makes sense to display them on associated product pages.
 - All inspirational entities should have associated products.
+:::
+## How to use the editing template
 
-### HOW TO USE THE EDITING TEMPLATE
-
-### INSPIRATIONALS
+### Inspirationals
 
 Each row represents one inspirational entity.
 
@@ -98,16 +102,16 @@ To change or remove information on an inspirational, change or remove the inform
 
 Only the inspirationals included in the template will be affected by the change upon upload.
 
-### IMAGES
+### Images
 
 Each row represents one image.
 
 The URL must be a path to an image file. Each inspirational can have none, one or several images.
 
 To add several images to the same inspirational, you create several rows with the same inspirational slug, brand reference and inspirational type.
-
+:::tip
 The order of the images matter and will have the same order in the SQARP platform as they have in the sheet.
-
+:::
 To add a new image, simply add a new row, identify the inspirational entity you want to add the image to using the slug for the inspirational, the reference to the brand and the inspirational type. Finally, add the URL.
 
 To remove an image from an inspirational that currently has several images, remove the whole row for that image. To remove an image from an inspirational that has one image, remove only the image URL.
@@ -116,7 +120,7 @@ To change the order of images, change the order of the rows, so that the image y
 
 Only the inspirationals included in the template will be affected by the change upon upload.
 
-### DOCUMENTS
+### Documents
 
 Each row represents one document.
 
@@ -130,7 +134,7 @@ To remove a document from an inspirational that currently has several documents,
 
 Only the inspirationals included in the template will be affected by the change upon upload.
 
-### VIDEOS
+### Videos
 
 Each row represents one video.
 
@@ -144,7 +148,7 @@ To remove a video from an inspirational that currently has several videos, remov
 
 Only the inspirationals included in the template will be affected by the change upon upload.
 
-### DESCRIPTIONS
+### Descriptions
 
 Each row represents one description block.
 
@@ -168,6 +172,6 @@ To change the order of description blocks, change the order of the rows, so that
 
 Only the inspirationals included in the template will be affected by the change upon upload.
 
-### PRODUCT INSPIRATIONALS
+### Product Inspirationals
 
 [AVVAKTA NY IMPLEMENTATION I MALLEN]

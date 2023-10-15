@@ -1,6 +1,10 @@
-# ATTRIBUTES
+---
+sidebar_position: 7
+---
 
-### MODULE OVERVIEW
+# Attributes
+
+### Module Overview
 
 In this module, we manage attributes. Attributes is an umbrella term for Unverified Attributes and SQARP Verified Attributes. All attributes are on the product level. Attributes is tabulated product information.
 
