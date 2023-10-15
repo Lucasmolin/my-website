@@ -8,7 +8,7 @@ sidebar_position: 2
 
 In this module, virtuals are created, basic information are added to the virtuals and products are connected to virtuals. Virtualization is where variant management is done and product titles are set. Virtualization is a language specific module.
 
-### DATA & DEFINITIONS
+### Data & Definitions
 
 | Data | Definition | Rules & Validation |
 | --- | --- | --- |
